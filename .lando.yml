@@ -1,0 +1,4 @@
+name: serg-ysu-test
+recipe: drupal9
+config:
+  webroot: web
