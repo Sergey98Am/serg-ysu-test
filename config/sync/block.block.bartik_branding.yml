@@ -1,17 +1,17 @@
-uuid: bd770bc1-6dea-4c46-9ae0-a63e1ac33f5e
+uuid: 5197a4d9-8993-4f22-b21c-a983a682e1dc
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - bartik
 _core:
-  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
-id: olivero_site_branding
-theme: olivero
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: bartik_branding
+theme: bartik
 region: header
-weight: -8
+weight: 0
 provider: null
 plugin: system_branding_block
 settings:
@@ -21,5 +21,5 @@ settings:
   provider: system
   use_site_logo: true
   use_site_name: true
-  use_site_slogan: false
+  use_site_slogan: true
 visibility: {  }

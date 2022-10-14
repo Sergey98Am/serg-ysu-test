@@ -1,0 +1,17 @@
+uuid: b9df9eb9-c5cd-4094-b64f-55cb83825589
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.barcelona
+  enforced:
+    config:
+      - user.role.administrator
+id: barcelona-a416e6833
+label: Administrator
+weight: 3
+internal: true
+audience: outsider
+group_type: barcelona
+permissions_ui: false
+permissions: {  }

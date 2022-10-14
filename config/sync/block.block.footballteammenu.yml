@@ -1,0 +1,26 @@
+uuid: de4bde12-7367-464b-a17d-3412c0ab73ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - group_content_menu.group_content_menu_type.football_team_menu
+  module:
+    - group_content_menu
+  theme:
+    - olivero
+id: footballteammenu
+theme: olivero
+region: secondary_menu
+weight: -6
+provider: null
+plugin: 'group_content_menu:football_team_menu'
+settings:
+  id: 'group_content_menu:football_team_menu'
+  label: 'Football team menu'
+  label_display: '0'
+  provider: group_content_menu
+  context_mapping: {  }
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

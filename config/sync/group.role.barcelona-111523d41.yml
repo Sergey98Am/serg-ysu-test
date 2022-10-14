@@ -1,0 +1,17 @@
+uuid: e8b791c6-64ec-4a73-a489-045cf75be702
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.barcelona
+  enforced:
+    config:
+      - user.role.content_editor
+id: barcelona-111523d41
+label: 'Content editor'
+weight: 2
+internal: true
+audience: outsider
+group_type: barcelona
+permissions_ui: false
+permissions: {  }

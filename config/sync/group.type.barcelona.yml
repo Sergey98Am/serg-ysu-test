@@ -1,0 +1,12 @@
+uuid: 2fbc7f16-bd40-482b-8b31-7347186f6065
+langcode: en
+status: true
+dependencies: {  }
+id: barcelona
+label: Barcelona
+description: ''
+new_revision: true
+creator_membership: true
+creator_wizard: false
+creator_roles:
+  - barcelona-admin

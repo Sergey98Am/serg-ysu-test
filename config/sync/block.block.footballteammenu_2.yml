@@ -1,0 +1,27 @@
+uuid: 0cfdc5a6-074b-4d6e-b51f-592ab55de0b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - group_content_menu.group_content_menu_type.football_team_menu
+  module:
+    - group_content_menu
+  theme:
+    - bartik
+id: footballteammenu_2
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'group_content_menu:football_team_menu'
+settings:
+  id: 'group_content_menu:football_team_menu'
+  label: 'Football team menu'
+  label_display: visible
+  provider: group_content_menu
+  context_mapping:
+    group: '@group.group_route_context:group'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,32 @@
+uuid: 7144ccce-0901-4330-8530-b7986068934b
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.barcelona
+id: barcelona-admin
+label: Admin
+weight: 100
+internal: false
+audience: member
+group_type: barcelona
+permissions_ui: true
+permissions:
+  - 'access content overview'
+  - 'access group content menu overview'
+  - 'access group_node overview'
+  - 'administer group'
+  - 'administer members'
+  - 'delete group'
+  - 'delete group revisions'
+  - 'edit group'
+  - 'leave group'
+  - 'manage group_content_menu'
+  - 'revert group revisions'
+  - 'update own group_membership content'
+  - 'view any unpublished group'
+  - 'view group'
+  - 'view group revisions'
+  - 'view group_membership content'
+  - 'view latest group version'
+  - 'view own unpublished group'

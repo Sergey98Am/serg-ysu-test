@@ -1,0 +1,22 @@
+uuid: da3a7ebb-4b53-435f-a465-a10376cceed7
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.barcelona
+id: barcelona-member
+label: Member
+weight: -100
+internal: true
+audience: member
+group_type: barcelona
+permissions_ui: true
+permissions:
+  - 'access content overview'
+  - 'access group content menu overview'
+  - 'access group_node overview'
+  - 'administer group'
+  - 'manage group_content_menu'
+  - 'view any unpublished group'
+  - 'view group'
+  - 'view own unpublished group'

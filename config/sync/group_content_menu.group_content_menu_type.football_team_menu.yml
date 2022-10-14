@@ -1,0 +1,6 @@
+uuid: 51a1a3f4-a61b-4773-a609-d37e648386af
+langcode: en
+status: true
+dependencies: {  }
+id: football_team_menu
+label: 'Football team menu'

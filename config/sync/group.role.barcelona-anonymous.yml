@@ -1,0 +1,22 @@
+uuid: f43d13a7-7203-4444-b342-c2581021a0fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.barcelona
+id: barcelona-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: barcelona
+permissions_ui: true
+permissions:
+  - 'access content overview'
+  - 'access group content menu overview'
+  - 'access group_node overview'
+  - 'administer group'
+  - 'manage group_content_menu'
+  - 'view any unpublished group'
+  - 'view group'
+  - 'view own unpublished group'

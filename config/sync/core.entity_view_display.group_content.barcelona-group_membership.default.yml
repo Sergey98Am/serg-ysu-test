@@ -1,0 +1,23 @@
+uuid: e42f3046-13ae-4b3f-bfc9-b4e035d61890
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_content.barcelona-group_membership.group_roles
+    - group.content_type.barcelona-group_membership
+id: group_content.barcelona-group_membership.default
+targetEntityType: group_content
+bundle: barcelona-group_membership
+mode: default
+content:
+  group_roles:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+hidden:
+  entity_id: true
+  uid: true

@@ -1,0 +1,22 @@
+uuid: 13543089-f05f-4d9d-b3ff-d2514518091f
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.barcelona
+id: barcelona-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: barcelona
+permissions_ui: true
+permissions:
+  - 'access content overview'
+  - 'access group content menu overview'
+  - 'access group_node overview'
+  - 'administer group'
+  - 'manage group_content_menu'
+  - 'view any unpublished group'
+  - 'view group'
+  - 'view own unpublished group'
