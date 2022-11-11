@@ -1,0 +1,15 @@
+diff --git web/modules/custom/menu_item_extras/menu_item_extras.module web/modules/custom/menu_item_extras/menu_item_extras.module
+index b7caf15..3886df0 100644
+--- web/modules/custom/menu_item_extras/menu_item_extras.module
++++ web/modules/custom/menu_item_extras/menu_item_extras.module
+@@ -253,6 +253,10 @@ function menu_item_extras_form_menu_link_content_form_alter(array &$form, FormSt
+   $entity = $form_object->getEntity();
+   $bundle = $entity->bundle();
+ 
++  if ($entity->bundle() == 'menu_link_content') {
++    $bundle = $entity->get('menu_name')->getString();
++  }
++
+   foreach ($form['menu_parent']['#options'] as $option_id => $option) {
+     if (strpos($option_id, $bundle) !== 0) {
+       unset($form['menu_parent']['#options'][$option_id]);
